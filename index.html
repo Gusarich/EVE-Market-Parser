@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>EVE Market Parser</title>
+        <script
+            src="https://kit.fontawesome.com/01d2caac83.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        Last update: <span id="lastUpdate">..</span> minutes ago
+        <table id="main">
+            <thead>
+                <th onclick="sortTable(1)">
+                    Name <i class="fa-solid fa-sort"></i>
+                </th>
+                <th onclick="sortTable(2)" style="width: 8rem">
+                    Volume (m³) <i class="fa-solid fa-sort"></i>
+                </th>
+                <th onclick="sortTable(0)" style="width: 10rem">
+                    Profit <i class="fa-solid fa-sort"></i>
+                </th>
+                <th onclick="sortTable(4)" style="width: 8rem">
+                    Buy cap (ISK) <i class="fa-solid fa-sort"></i>
+                </th>
+                <th onclick="sortTable(3)" style="width: 8rem">
+                    Sell cap (ISK) <i class="fa-solid fa-sort"></i>
+                </th>
+                <th onclick="sortTable(7)" style="width: 10rem">
+                    Average jumps <i class="fa-solid fa-sort"></i>
+                </th>
+                <th onclick="sortTable(8)" style="width: 14rem">
+                    Average lowest security <i class="fa-solid fa-sort"></i>
+                </th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </body>
+</html>

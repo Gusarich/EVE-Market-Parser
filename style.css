@@ -1,0 +1,35 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: #f7f9fb;
+}
+
+table,
+th,
+td {
+    border: 0.5px solid;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.fa-sort {
+    margin-left: 4px;
+}
+
+th {
+    cursor: pointer;
+}
